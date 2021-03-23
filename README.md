@@ -6,9 +6,7 @@ Input: CSV file with a column of Japanese sentences.  The first (header) row sho
 
 Output: JSON object with key 'sentences', which contains an array of arrays.  Each array contains the tokens of a sentence.
 
-Python port courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
-https://pypi.org/project/tinysegmenter/
-http://tinysegmenter.tuxfamily.org/
+
 
 Directions:
 
@@ -20,6 +18,9 @@ with open('sentences_jp_tokenized.json') as f:
         data = json.load(f)
         print(data['sentences'][0])
 
+Python port courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
+https://pypi.org/project/tinysegmenter/
+http://tinysegmenter.tuxfamily.org/
 
 Tatoeba corpus licensed under CC BY 2.0 FR.
 https://creativecommons.org/licenses/by/2.0/fr/
