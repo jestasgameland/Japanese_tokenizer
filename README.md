@@ -17,6 +17,8 @@ Directions:
 with open('sentences_jp_tokenized.json') as f:
         data = json.load(f)
         print(data['sentences'][0])
+        
+----------------------------------------------------------------------------------------
 
 Python port courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
 https://pypi.org/project/tinysegmenter/
