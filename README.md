@@ -3,6 +3,7 @@
 This uses the Tatoeba Japanese corpus and the Python port of Tinysegmenter to create a tokenized list of Japanese sentences in JSON.
 
 Input: CSV file with a column of Japanese sentences.  The first (header) row should be 'sentence.'
+
 Output: JSON object with key 'sentences', which contains an array of arrays.  Each array contains the tokens of a sentence.
 
 Python port courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
