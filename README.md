@@ -17,3 +17,8 @@ Directions:
 with open('sentences_jp_tokenized.json') as f:
         data = json.load(f)
         print(data['sentences'][0])
+
+
+Tatoeba corpus licensed under CC BY 2.0 FR.
+https://creativecommons.org/licenses/by/2.0/fr/
+https://tatoeba.org/eng/downloads
