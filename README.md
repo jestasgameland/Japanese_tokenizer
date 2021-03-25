@@ -8,15 +8,12 @@ Output: JSON object with key 'sentences', which contains an array of arrays.  Ea
 
 
 
-Directions:
+Setup:
 
 1. Download csv file of the Tatoeba Japanese corpus: https://tatoeba.org/eng/downloads 
 2. Add a first (header) row and enter 'sentence' in the topmost cell.
-3. Install Tinysegmenter: (in terminal) pip install tinysegmenter
-4. Retrieve a sample sentence: 
-with open('sentences_jp_tokenized.json') as f:
-        data = json.load(f)
-        print(data['sentences'][0])
+3. Install Tinysegmenter: pip install tinysegmenter
+4. Install Mecab: pip install mecab-python3  (see Windows directions here: https://github.com/SamuraiT/mecab-python3)
         
 ----------------------------------------------------------------------------------------
 
