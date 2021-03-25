@@ -1,6 +1,6 @@
 # tatoeba_tinysegmenter
 
-This uses the Tatoeba Japanese corpus and the Python port of Tinysegmenter to create a tokenized list of Japanese sentences in JSON.
+A small experiment using both Mecab and Tinysegmenter to create a tokenized list of Japanese sentences in JSON, taken from the Tatoeba corpus.  It seems Mecab is much more accurate with tokenization.
 
 Input: CSV file with a column of Japanese sentences.  The first (header) row should be 'sentence.'
 
@@ -20,9 +20,11 @@ with open('sentences_jp_tokenized.json') as f:
         
 ----------------------------------------------------------------------------------------
 
-Python port courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
+Python port of Tinysegmenter courtesy of Masato Hagiwara; Original Tinysegmenter courtesy of Taku Kudo.
 https://pypi.org/project/tinysegmenter/
 http://tinysegmenter.tuxfamily.org/
+
+Mecab official documentation (Japanese): https://taku910.github.io/mecab/
 
 Tatoeba corpus licensed under CC BY 2.0 FR.
 https://creativecommons.org/licenses/by/2.0/fr/
